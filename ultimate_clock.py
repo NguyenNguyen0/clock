@@ -59,7 +59,7 @@ def main() -> None:
     root.title("ULTIMATE Clock")
     root.geometry("600x600")
     root.resizable(False, False)
-    root.iconbitmap(r"clock-icon.ico")
+    root.iconbitmap(r"./img/icon/clock-icon.ico")
 
     canvas = tk.Canvas(root, width=600, height=600, bg="gray")
     canvas.pack()
